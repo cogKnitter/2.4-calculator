@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size:62.5%;
+
+}
+.wrapper {
+  width: 370px;
+  height: 440px;
+  font-size: 0;
+  background-color: rgba(89, 89, 89, 0.5);
+
+}
+.display {
+  width: 75%;
+  height: 20%;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  background-color: rgb(77,145,88);
+  padding: 0;
+  border: 1px solid rgba(89, 89, 89, 0.5);
+}
+.calcButton {
+  width: 25%;
+  height: 20%;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  background-color: rgb(77,145,88);
+}
+
+.operatorButton {
+  color: rgb(0, 0, 0);
+  background-color: rgba(77,145,88, 0.5);
+}
