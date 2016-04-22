@@ -4,32 +4,32 @@
     <meta charset="utf-8">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script type="text/javascript" src="main.js/calc.js"></script>
+
   </head>
   <body>
-    <main class="wrapper">
+    <form class="wrapper">
 
       <button class="calcButton" type="button">C</button>
-      <input class="display" name="display">
-      <button class="calcButton" type="button">7</button>
-      <button class="calcButton" type="button">8</button>
-      <button class="calcButton" type="button">9</button>
-      <button class="calcButton operatorButton" type="button">/</button>
-      <button class="calcButton" type="button">4</button>
-      <button class="calcButton" type="button">5</button>
-      <button class="calcButton" type="button">6</button>
-      <button class="calcButton operatorButton" type="button">X</button>
-      <button class="calcButton" type="button">1</button>
-      <button class="calcButton" type="button">2</button>
-      <button class="calcButton" type="button">3</button>
-      <button class="calcButton operatorButton" type="button">-</button>
-      <button class="calcButton" type="button">0</button>
-      <button class="calcButton" type="button">.</button>
-      <button class="calcButton" type="button">=</button>
-      <button class="calcButton operatorButton" type="button">+</button>
+      <h2 class="display" name="display"><span data-js="calc-output"></span></h2>
+      <button class="calcButton" type="button" data-number="7" data-js="num-press">7</button>
+      <button class="calcButton" type="button" data-number="8" data-js="num-press">8</button>
+      <button class="calcButton" type="button" data-number="9" data-js="num-press">9</button>
+      <button class="calcButton operatorButton" type="button" data-type="/" data-js="op-press">/</button>
+      <button class="calcButton" type="button" data-number="4" data-js="num-press">4</button>
+      <button class="calcButton" type="button" data-number="5" data-js="num-press">5</button>
+      <button class="calcButton" type="button" data-number="6" data-js="num-press">6</button>
+      <button class="calcButton operatorButton" type="button" data-type="*" data-js="op-press">X</button>
+      <button class="calcButton" type="button" data-number="1" data-js="num-press">1</button>
+      <button class="calcButton" type="button" data-number="2" data-js="num-press">2</button>
+      <button class="calcButton" type="button" data-number="3" data-js="num-press">3</button>
+      <button class="calcButton operatorButton" type="button" data-type="-" data-js="op-press">-</button>
+      <button class="calcButton" type="button" data-number="0" data-js="num-press">0</button>
+      <button class="calcButton" type="button" data-type="." data-js="num-press">.</button>
+      <button class="calcButton" type="button" data-type="=" data-js="op-press" >=</button>
+      <button class="calcButton operatorButton" type="button" data-type="+" data-js="op-press" >+</button>
 
 
-    </main>
-
+    </form>
+    <script type="text/javascript" src="main.js/calc.js"></script>  <!--moved script to end of body so that js loads after HTML and CSS -->
   </body>
 </html>
