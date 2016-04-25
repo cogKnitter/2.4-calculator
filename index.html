@@ -9,8 +9,8 @@
   <body>
     <form class="wrapper">
 
-      <button class="calcButton" type="button">C</button>
-      <h2 class="display" name="display"><span data-js="calc-output"></span></h2>
+      <button class="calcButton updateDisplay" type="button" data-js="reset-span">C</button>
+      <h3 class="display" name="display"><span data-js="calc-output"></span></h3>
       <button class="calcButton" type="button" data-number="7" data-js="num-press">7</button>
       <button class="calcButton" type="button" data-number="8" data-js="num-press">8</button>
       <button class="calcButton" type="button" data-number="9" data-js="num-press">9</button>
@@ -24,12 +24,12 @@
       <button class="calcButton" type="button" data-number="3" data-js="num-press">3</button>
       <button class="calcButton operatorButton" type="button" data-type="-" data-js="op-press">-</button>
       <button class="calcButton" type="button" data-number="0" data-js="num-press">0</button>
-      <button class="calcButton" type="button" data-type="." data-js="num-press">.</button>
-      <button class="calcButton" type="button" data-type="=" data-js="complete" >=</button>
+      <button class="calcButton" type="button" data-number="." data-js="num-press">.</button>
+      <button class="calcButton updateDisplay" type="button" data-type="=" data-js="complete" >=</button>
       <button class="calcButton operatorButton" type="button" data-type="+" data-js="op-press" >+</button>
 
 
     </form>
-    <script type="text/javascript" src="js/calc.js"></script>  <!--moved script to end of body so that js loads after HTML and CSS -->
+    <script type="text/javascript" src="js/main.js"></script>  <!--moved script to end of body so that js loads after HTML and CSS -->
   </body>
 </html>
