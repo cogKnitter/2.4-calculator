@@ -45,14 +45,9 @@ for (var i = 0; i < operatorClick.length; i++) {
 
 clearDisplay.addEventListener("click", function (e) {
     calcDisp.innerHTML = "";
+    showMath = "";
   });
 
-  // I'm leaving this in because it works the same as the above function, but I don't understand why. Would like to review in class.
-  // clearDisplay.addEventListener("click", function(e){
-  //   var zero = "";
-  //   calcDisp.textContent = zero;
-  //   console.log(showMath);
-  // })
 
 
 });
