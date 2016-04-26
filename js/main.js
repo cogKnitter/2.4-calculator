@@ -43,7 +43,7 @@ for (var i = 0; i < operatorClick.length; i++) {
 
 // clears display
 
-clearDisplay.addEventListener("click", function (e) {
+clearDisplay.addEventListener("click", function (e){
     calcDisp.innerHTML = "";
     showMath = "";
   });
