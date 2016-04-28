@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+  </head>
+  <body>
+    <form class="wrapper">
+
+      <button class="calcButton updateDisplay" type="button" data-js="reset-span">C</button>
+      <h3 class="display" name="display"><span data-js="calc-output"></span></h3>
+      <button class="calcButton" type="button" data-number="7" data-js="num-press">7</button>
+      <button class="calcButton" type="button" data-number="8" data-js="num-press">8</button>
+      <button class="calcButton" type="button" data-number="9" data-js="num-press">9</button>
+      <button class="calcButton operatorButton" type="button" data-type="/" data-js="op-press">/</button>
+      <button class="calcButton" type="button" data-number="4" data-js="num-press">4</button>
+      <button class="calcButton" type="button" data-number="5" data-js="num-press">5</button>
+      <button class="calcButton" type="button" data-number="6" data-js="num-press">6</button>
+      <button class="calcButton operatorButton" type="button" data-type="*" data-js="op-press">X</button>
+      <button class="calcButton" type="button" data-number="1" data-js="num-press">1</button>
+      <button class="calcButton" type="button" data-number="2" data-js="num-press">2</button>
+      <button class="calcButton" type="button" data-number="3" data-js="num-press">3</button>
+      <button class="calcButton operatorButton" type="button" data-type="-" data-js="op-press">-</button>
+      <button class="calcButton" type="button" data-number="0" data-js="num-press">0</button>
+      <button class="calcButton" type="button" data-number="." data-js="num-press">.</button>
+      <button class="calcButton updateDisplay" type="button" data-type="=" data-js="complete" >=</button>
+      <button class="calcButton operatorButton" type="button" data-type="+" data-js="op-press" >+</button>
+
+
+    </form>
+    <script type="text/javascript" src="js/main.js"></script>  <!--moved script to end of body so that js loads after HTML and CSS -->
+  </body>
+</html>
